@@ -88,6 +88,8 @@ private:
     std::vector<double> temp_states_;
     // vector for position offsets
     std::vector<double> pos_offsets_;
+    // per-joint inversion flag (true => invert direction)
+    std::vector<bool> inverted_;
     // array variables for motors
     u8*  p_ids_pnt_;
     u8*  v_ids_pnt_;
